@@ -1,16 +1,16 @@
-Release 14.2 - xst P.28xd (nt64)
-Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: top.prj
 
@@ -105,25 +105,27 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\transmitter.v" into library work
+Analyzing Verilog file "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\transmitter.v" into library work
 Parsing module <transmitter>.
-Analyzing Verilog file "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\reciever.v" into library work
+Analyzing Verilog file "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\reciever.v" into library work
 Parsing module <receiver>.
-Analyzing Verilog file "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\receiver_sampler.v" into library work
+Analyzing Verilog file "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\receiver_sampler.v" into library work
 Parsing module <receiver_sampler>.
-Analyzing Verilog file "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\PLL_9_6M.v" into library work
+Analyzing Verilog file "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\PLL_9_6M.v" into library work
 Parsing module <PLL_9_6M>.
-Analyzing Verilog file "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\MEM.v" into library work
+Analyzing Verilog file "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\MEM.v" into library work
 Parsing module <MEM>.
-Analyzing Verilog file "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\Data_send.v" into library work
+Analyzing Verilog file "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_send.v" into library work
 Parsing module <Data_send>.
-Analyzing Verilog file "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\Data_Process.v" into library work
+Analyzing Verilog file "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" into library work
+Parsing module <Data_selector>.
+Analyzing Verilog file "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_Process.v" into library work
 Parsing module <Data_Process>.
-Analyzing Verilog file "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\Data_collect.v" into library work
+Analyzing Verilog file "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_collect.v" into library work
 Parsing module <Data_collect>.
-Analyzing Verilog file "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\clk_divide.v" into library work
+Analyzing Verilog file "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\clk_divide.v" into library work
 Parsing module <clk_divide>.
-Analyzing Verilog file "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\top.v" into library work
+Analyzing Verilog file "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\top.v" into library work
 Parsing module <top>.
 
 =========================================================================
@@ -135,6 +137,28 @@ Elaborating module <top>.
 Elaborating module <Data_Process>.
 
 Elaborating module <Data_collect(NUM_DATA=10000)>.
+
+Elaborating module <Data_selector>.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 64: Result of 15-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 70: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 73: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 86: Result of 32-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 91: Result of 32-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 97: Result of 32-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 99: Result of 17-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 102: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 116: Result of 32-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 122: Result of 32-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 127: Result of 32-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 132: Result of 32-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 142: Result of 15-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 147: Result of 15-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 152: Result of 15-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 158: Result of 15-bit expression is truncated to fit in 14-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 160: Result of 17-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 163: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v" Line 174: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:1127 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\top.v" Line 75: Assignment to data_process_finish ignored, since the identifier is never used
 
 Elaborating module <Data_send(NUM_DATA=10000)>.
 
@@ -153,38 +177,41 @@ Elaborating module <PLL_9_6M>.
 Elaborating module <IBUFG>.
 
 Elaborating module <PLL_BASE(BANDWIDTH="OPTIMIZED",CLK_FEEDBACK="CLKFBOUT",COMPENSATION="SYSTEM_SYNCHRONOUS",DIVCLK_DIVIDE=5,CLKFBOUT_MULT=24,CLKFBOUT_PHASE=0.0,CLKOUT0_DIVIDE=50,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKIN_PERIOD=10.0,REF_JITTER=0.01)>.
-WARNING:HDLCompiler:1127 - "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\PLL_9_6M.v" Line 116: Assignment to clkout1_unused ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\PLL_9_6M.v" Line 117: Assignment to clkout2_unused ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\PLL_9_6M.v" Line 118: Assignment to clkout3_unused ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\PLL_9_6M.v" Line 119: Assignment to clkout4_unused ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\PLL_9_6M.v" Line 120: Assignment to clkout5_unused ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\PLL_9_6M.v" Line 122: Assignment to locked_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\PLL_9_6M.v" Line 116: Assignment to clkout1_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\PLL_9_6M.v" Line 117: Assignment to clkout2_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\PLL_9_6M.v" Line 118: Assignment to clkout3_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\PLL_9_6M.v" Line 119: Assignment to clkout4_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\PLL_9_6M.v" Line 120: Assignment to clkout5_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\PLL_9_6M.v" Line 122: Assignment to locked_unused ignored, since the identifier is never used
 
 Elaborating module <BUFG>.
+WARNING:HDLCompiler:634 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\top.v" Line 48: Net <data_orocess_finish> does not have a driver.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <top>.
-    Related source file is "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\top.v".
+    Related source file is "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\top.v".
         NUM_DATA = 10000
         CLK_RATE = 9600000
         BAUD_RATE = 9600
         SAMPLE_RATE = 10
+INFO:Xst:3210 - "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\top.v" line 67: Output port <data_process_finish> of the instance <systolic> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <data_orocess_finish> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Summary:
 	no macro.
 Unit <top> synthesized.
 
 Synthesizing Unit <Data_Process>.
-    Related source file is "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\Data_Process.v".
+    Related source file is "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_Process.v".
     Found 1-bit register for signal <data_send_run>.
     Summary:
 	inferred   1 D-type flip-flop(s).
 Unit <Data_Process> synthesized.
 
 Synthesizing Unit <Data_collect>.
-    Related source file is "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\Data_collect.v".
+    Related source file is "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_collect.v".
         NUM_DATA = 10000
     Found 1-bit register for signal <prev_data_ready>.
     Found 14-bit register for signal <MEM_write_addr>.
@@ -198,14 +225,88 @@ Synthesizing Unit <Data_collect>.
 	inferred  39 D-type flip-flop(s).
 Unit <Data_collect> synthesized.
 
+Synthesizing Unit <Data_selector>.
+    Related source file is "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_selector.v".
+        w1 = 1
+        w2 = 2
+        w3 = 1
+        w4 = 2
+        w5 = 4
+        w6 = 2
+        w7 = 1
+        w8 = 2
+        w9 = 1
+    Found 7-bit register for signal <column>.
+    Found 7-bit register for signal <row>.
+    Found 14-bit register for signal <read_select>.
+    Found 14-bit register for signal <write_out_se>.
+    Found 4-bit register for signal <mem_select>.
+    Found 1-bit register for signal <wr_enable>.
+    Found 8-bit register for signal <data_out>.
+    Found 72-bit register for signal <n0145[71:0]>.
+    Found finite state machine <FSM_0> for signal <mem_select>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 102                                            |
+    | Inputs             | 9                                              |
+    | Outputs            | 8                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000                                           |
+    | Power Up State     | 0000                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 14-bit adder for signal <n0336> created at line 64.
+    Found 10-bit adder for signal <n0314[9:0]> created at line 99.
+    Found 11-bit adder for signal <n0317[10:0]> created at line 99.
+    Found 12-bit adder for signal <n0320[11:0]> created at line 99.
+    Found 13-bit adder for signal <n0323[12:0]> created at line 99.
+    Found 14-bit adder for signal <n0326[13:0]> created at line 99.
+    Found 15-bit adder for signal <n0329[14:0]> created at line 99.
+    Found 14-bit adder for signal <row[6]_GND_4_o_add_121_OUT> created at line 142.
+    Found 14-bit adder for signal <row[6]_GND_4_o_add_132_OUT> created at line 147.
+    Found 14-bit adder for signal <row[6]_GND_4_o_add_143_OUT> created at line 152.
+    Found 14-bit adder for signal <row[6]_GND_4_o_add_154_OUT> created at line 158.
+    Found 10-bit adder for signal <n0346[9:0]> created at line 160.
+    Found 11-bit adder for signal <n0349[10:0]> created at line 160.
+    Found 12-bit adder for signal <n0352[11:0]> created at line 160.
+    Found 13-bit adder for signal <n0355[12:0]> created at line 160.
+    Found 14-bit adder for signal <n0358[13:0]> created at line 160.
+    Found 15-bit adder for signal <n0361[14:0]> created at line 160.
+    Found 7-bit adder for signal <column[6]_GND_4_o_add_173_OUT> created at line 163.
+    Found 7-bit adder for signal <row[6]_GND_4_o_add_189_OUT> created at line 174.
+    Found 14-bit subtractor for signal <GND_4_o_GND_4_o_sub_68_OUT<13:0>> created at line 116.
+    Found 14-bit subtractor for signal <GND_4_o_GND_4_o_sub_79_OUT<13:0>> created at line 122.
+    Found 14-bit subtractor for signal <GND_4_o_GND_4_o_sub_90_OUT<13:0>> created at line 127.
+    Found 14-bit subtractor for signal <GND_4_o_GND_4_o_sub_101_OUT<13:0>> created at line 132.
+    Found 16-bit adder for signal <_n0435> created at line 99.
+    Found 16-bit adder for signal <n0164> created at line 99.
+    Found 16-bit adder for signal <_n0438> created at line 160.
+    Found 16-bit adder for signal <n0196> created at line 160.
+    Found 7x7-bit multiplier for signal <n0309> created at line 64.
+    Found 7-bit comparator greater for signal <column[6]_PWR_4_o_LessThan_12_o> created at line 75
+    Found 7-bit comparator greater for signal <row[6]_PWR_4_o_LessThan_13_o> created at line 75
+    Found 7-bit comparator greater for signal <GND_4_o_column[6]_LessThan_14_o> created at line 76
+    Found 7-bit comparator greater for signal <row[6]_PWR_4_o_LessThan_189_o> created at line 173
+    Summary:
+	inferred   1 Multiplier(s).
+	inferred  27 Adder/Subtractor(s).
+	inferred 123 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred  37 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <Data_selector> synthesized.
+
 Synthesizing Unit <Data_send>.
-    Related source file is "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\Data_send.v".
+    Related source file is "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\Data_send.v".
         NUM_DATA = 10000
     Found 1-bit register for signal <prev_send_start>.
     Found 14-bit register for signal <MEM_read_sel>.
     Found 1-bit register for signal <transmitter_start>.
     Found 1-bit register for signal <prev_tx_ready>.
-    Found 14-bit adder for signal <MEM_read_sel[13]_GND_4_o_add_6_OUT> created at line 44.
+    Found 14-bit adder for signal <MEM_read_sel[13]_GND_6_o_add_6_OUT> created at line 44.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  17 D-type flip-flop(s).
@@ -213,7 +314,7 @@ Synthesizing Unit <Data_send>.
 Unit <Data_send> synthesized.
 
 Synthesizing Unit <MEM>.
-    Related source file is "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\MEM.v".
+    Related source file is "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\MEM.v".
         NUM_DATA = 10000
 WARNING:Xst:3035 - Index value(s) does not match array range for signal <Data>, simulation mismatch.
     Found 10001x8-bit dual-port RAM <Mram_Data> for signal <Data>.
@@ -231,14 +332,14 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <Data>, 
 Unit <MEM> synthesized.
 
 Synthesizing Unit <receiver_sampler>.
-    Related source file is "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\receiver_sampler.v".
+    Related source file is "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\receiver_sampler.v".
     Found 4-bit register for signal <zero_counter>.
     Found 4-bit register for signal <one_counter>.
     Found 1-bit register for signal <data_bit>.
     Found 1-bit register for signal <prev_rx_clk>.
-    Found 4-bit adder for signal <one_counter[3]_GND_14_o_add_4_OUT> created at line 30.
-    Found 4-bit adder for signal <zero_counter[3]_GND_14_o_add_5_OUT> created at line 32.
-    Found 4-bit comparator greater for signal <one_counter[3]_INV_14_o> created at line 39
+    Found 4-bit adder for signal <one_counter[3]_GND_16_o_add_4_OUT> created at line 30.
+    Found 4-bit adder for signal <zero_counter[3]_GND_16_o_add_5_OUT> created at line 32.
+    Found 4-bit comparator greater for signal <one_counter[3]_INV_35_o> created at line 39
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  10 D-type flip-flop(s).
@@ -246,12 +347,12 @@ Synthesizing Unit <receiver_sampler>.
 Unit <receiver_sampler> synthesized.
 
 Synthesizing Unit <receiver>.
-    Related source file is "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\reciever.v".
+    Related source file is "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\reciever.v".
     Found 4-bit register for signal <state>.
     Found 8-bit register for signal <shift>.
     Found 8-bit register for signal <data>.
     Found 1-bit register for signal <sig>.
-    Found 4-bit adder for signal <state[3]_GND_15_o_add_8_OUT> created at line 52.
+    Found 4-bit adder for signal <state[3]_GND_17_o_add_8_OUT> created at line 52.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  21 D-type flip-flop(s).
@@ -259,11 +360,11 @@ Synthesizing Unit <receiver>.
 Unit <receiver> synthesized.
 
 Synthesizing Unit <transmitter>.
-    Related source file is "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\transmitter.v".
+    Related source file is "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\transmitter.v".
     Found 1-bit register for signal <available>.
     Found 4-bit register for signal <state>.
     Found 11-bit register for signal <shift>.
-    Found 4-bit adder for signal <state[3]_GND_16_o_add_8_OUT> created at line 51.
+    Found 4-bit adder for signal <state[3]_GND_18_o_add_8_OUT> created at line 51.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  16 D-type flip-flop(s).
@@ -271,7 +372,7 @@ Synthesizing Unit <transmitter>.
 Unit <transmitter> synthesized.
 
 Synthesizing Unit <clk_divide>.
-    Related source file is "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\clk_divide.v".
+    Related source file is "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\clk_divide.v".
         CLK_RATE = 9600000
         BAUD_RATE = 9600
         SAMPLE_RATE = 10
@@ -279,15 +380,15 @@ Synthesizing Unit <clk_divide>.
     Found 17-bit register for signal <counter_sampling>.
     Found 1-bit register for signal <clk_sampling_internal>.
     Found 17-bit register for signal <counter_uart>.
-    Found 17-bit adder for signal <counter_uart[16]_GND_18_o_add_5_OUT> created at line 64.
-    Found 17-bit adder for signal <counter_sampling[16]_GND_18_o_add_12_OUT> created at line 85.
+    Found 17-bit adder for signal <counter_uart[16]_GND_20_o_add_5_OUT> created at line 64.
+    Found 17-bit adder for signal <counter_sampling[16]_GND_20_o_add_12_OUT> created at line 85.
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  36 D-type flip-flop(s).
 Unit <clk_divide> synthesized.
 
 Synthesizing Unit <PLL_9_6M>.
-    Related source file is "\\ad\eng\users\o\n\onespark\EC551\EC551_Lab2\Lab 5 UART_code\UART\UART\PLL_9_6M.v".
+    Related source file is "C:\Users\onesp\Desktop\2016F\EC551\Lab 3\LastTry\UART\UART\PLL_9_6M.v".
     Summary:
 	no macro.
 Unit <PLL_9_6M> synthesized.
@@ -296,28 +397,45 @@ Unit <PLL_9_6M> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 1
- 10001x8-bit dual-port RAM                             : 1
-# Adders/Subtractors                                   : 8
- 14-bit adder                                          : 2
+# RAMs                                                 : 2
+ 10001x8-bit dual-port RAM                             : 2
+# Multipliers                                          : 1
+ 7x7-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 35
+ 10-bit adder                                          : 2
+ 11-bit adder                                          : 2
+ 12-bit adder                                          : 2
+ 13-bit adder                                          : 2
+ 14-bit adder                                          : 9
+ 14-bit subtractor                                     : 4
+ 15-bit adder                                          : 2
+ 16-bit adder                                          : 4
  17-bit adder                                          : 2
  4-bit adder                                           : 4
-# Registers                                            : 26
- 1-bit register                                        : 13
+ 7-bit adder                                           : 2
+# Registers                                            : 33
+ 1-bit register                                        : 14
  11-bit register                                       : 1
- 14-bit register                                       : 3
+ 14-bit register                                       : 5
  17-bit register                                       : 2
  4-bit register                                        : 4
- 8-bit register                                        : 3
-# Comparators                                          : 1
+ 7-bit register                                        : 2
+ 72-bit register                                       : 1
+ 8-bit register                                        : 4
+# Comparators                                          : 5
  4-bit comparator greater                              : 1
-# Multiplexers                                         : 14
- 1-bit 2-to-1 multiplexer                              : 3
+ 7-bit comparator greater                              : 4
+# Multiplexers                                         : 51
+ 1-bit 2-to-1 multiplexer                              : 6
  11-bit 2-to-1 multiplexer                             : 1
- 14-bit 2-to-1 multiplexer                             : 1
+ 14-bit 2-to-1 multiplexer                             : 11
  4-bit 2-to-1 multiplexer                              : 9
-# Tristates                                            : 8
- 1-bit tristate buffer                                 : 8
+ 7-bit 2-to-1 multiplexer                              : 5
+ 72-bit 2-to-1 multiplexer                             : 2
+ 8-bit 2-to-1 multiplexer                              : 17
+# Tristates                                            : 16
+ 1-bit tristate buffer                                 : 16
+# FSMs                                                 : 1
 
 =========================================================================
 
@@ -325,10 +443,43 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
+WARNING:Xst:1710 - FF/Latch <data_send_run> (without init value) has a constant value of 0 in block <Data_process>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <transmitter_start> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <prev_send_start> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MEM_read_sel_0> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MEM_read_sel_1> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MEM_read_sel_2> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MEM_read_sel_3> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MEM_read_sel_4> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MEM_read_sel_5> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MEM_read_sel_6> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MEM_read_sel_7> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MEM_read_sel_8> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MEM_read_sel_9> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MEM_read_sel_10> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MEM_read_sel_11> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MEM_read_sel_12> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <MEM_read_sel_13> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <available> is unconnected in block <transmitter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <prev_tx_ready> is unconnected in block <Data_send>.
+WARNING:Xst:1290 - Hierarchical block <Data_process> is unconnected in block <top>.
+   It will be removed from the design.
 
 Synthesizing (advanced) Unit <Data_collect>.
 The following registers are absorbed into counter <delayed_write_addr>: 1 register on signal <delayed_write_addr>.
 Unit <Data_collect> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Data_selector>.
+	The following adders/subtractors are grouped into adder tree <Madd_n0164_Madd1> :
+ 	<Madd_n0326[13:0]_Madd> in block <Data_selector>, 	<Madd_n0329[14:0]_Madd> in block <Data_selector>, 	<Madd__n0435_Madd> in block <Data_selector>.
+	The following adders/subtractors are grouped into adder tree <Madd_n0196_Madd1> :
+ 	<Madd_n0358[13:0]_Madd> in block <Data_selector>, 	<Madd_n0361[14:0]_Madd> in block <Data_selector>, 	<Madd__n0438_Madd> in block <Data_selector>.
+	The following adders/subtractors are grouped into adder tree <Madd_n0323[12:0]1> :
+ 	<Madd_n0314[9:0]> in block <Data_selector>, 	<Madd_n0317[10:0]> in block <Data_selector>, 	<Madd_n0320[11:0]> in block <Data_selector>, 	<Madd_n0323[12:0]> in block <Data_selector>.
+	The following adders/subtractors are grouped into adder tree <Madd_n0355[12:0]1> :
+ 	<Madd_n0346[9:0]> in block <Data_selector>, 	<Madd_n0349[10:0]> in block <Data_selector>, 	<Madd_n0352[11:0]> in block <Data_selector>, 	<Madd_n0355[12:0]> in block <Data_selector>.
+	Multiplier <Mmult_n0309> in block <Data_selector> and adder/subtractor <Madd_n0336> in block <Data_selector> are combined into a MAC<Maddsub_n0309>.
+Unit <Data_selector> synthesized (advanced).
 
 Synthesizing (advanced) Unit <Data_send>.
 The following registers are absorbed into counter <MEM_read_sel>: 1 register on signal <MEM_read_sel>.
@@ -367,28 +518,75 @@ Unit <receiver_sampler> synthesized (advanced).
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 1
- 10001x8-bit dual-port distributed RAM                 : 1
-# Adders/Subtractors                                   : 2
+# RAMs                                                 : 2
+ 10001x8-bit dual-port distributed RAM                 : 2
+# MACs                                                 : 1
+ 7x7-to-14-bit MAC                                     : 1
+# Adders/Subtractors                                   : 12
+ 14-bit adder                                          : 4
+ 14-bit subtractor                                     : 4
  4-bit adder                                           : 2
+ 7-bit adder                                           : 2
+# Adder Trees                                          : 4
+ 13-bit / 5-inputs adder tree                          : 2
+ 9-bit / 5-inputs adder tree                           : 2
 # Counters                                             : 6
  14-bit up counter                                     : 2
  17-bit up counter                                     : 2
  4-bit up counter                                      : 2
-# Registers                                            : 70
- Flip-Flops                                            : 70
-# Comparators                                          : 1
+# Registers                                            : 193
+ Flip-Flops                                            : 193
+# Comparators                                          : 5
  4-bit comparator greater                              : 1
-# Multiplexers                                         : 13
- 1-bit 2-to-1 multiplexer                              : 3
+ 7-bit comparator greater                              : 4
+# Multiplexers                                         : 50
+ 1-bit 2-to-1 multiplexer                              : 6
  11-bit 2-to-1 multiplexer                             : 1
+ 14-bit 2-to-1 multiplexer                             : 10
  4-bit 2-to-1 multiplexer                              : 9
+ 7-bit 2-to-1 multiplexer                              : 5
+ 72-bit 2-to-1 multiplexer                             : 2
+ 8-bit 2-to-1 multiplexer                              : 17
+# FSMs                                                 : 1
 
 =========================================================================
 
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
+WARNING:Xst:1710 - FF/Latch <data_send_run> (without init value) has a constant value of 0 in block <Data_Process>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <prev_send_start> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter_start> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <systolic/FSM_0> on signal <mem_select[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0001  | 0001
+ 0010  | 0010
+ 0011  | 0011
+ 0100  | 0100
+ 0101  | 0101
+ 0110  | 0110
+ 0111  | 0111
+ 1000  | 1000
+-------------------
+WARNING:Xst:1710 - FF/Latch <MEM_read_sel_0> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_read_sel_1> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_read_sel_2> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_read_sel_3> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_read_sel_6> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_read_sel_4> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_read_sel_5> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_read_sel_7> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_read_sel_8> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_read_sel_9> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_read_sel_10> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_read_sel_13> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_read_sel_11> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <MEM_read_sel_12> (without init value) has a constant value of 0 in block <Data_send>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <prev_tx_ready> is unconnected in block <Data_send>.
 INFO:Xst:1901 - Instance PLL/pll_base_inst in unit PLL/pll_base_inst of type PLL_BASE has been replaced by PLL_ADV
 WARNING:Xst:2042 - Unit MEM: 8 internal tristates are replaced by logic (pull-up yes): read_data<0>, read_data<1>, read_data<2>, read_data<3>, read_data<4>, read_data<5>, read_data<6>, read_data<7>.
 
@@ -396,65 +594,710 @@ Optimizing unit <top> ...
 
 Optimizing unit <Data_collect> ...
 
-Optimizing unit <Data_send> ...
-
 Optimizing unit <receiver> ...
 
 Optimizing unit <transmitter> ...
 
 Optimizing unit <clk_divide> ...
 
+Optimizing unit <Data_selector> ...
+
 Optimizing unit <MEM> ...
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_6> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_7> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_10> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_8> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_9> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_11> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_12> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_13> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_14> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_15> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_16> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_uart_10> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_uart_9> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_uart_11> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_uart_12> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <clk_div/counter_uart_13> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <transmitter/available> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/data_out_7> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/data_out_6> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/data_out_5> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/data_out_4> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/data_out_3> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/data_out_2> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/data_out_1> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/data_out_0> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/wr_enable> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/write_out_se_13> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/write_out_se_12> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/write_out_se_11> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/write_out_se_10> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/write_out_se_9> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/write_out_se_8> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/write_out_se_7> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/write_out_se_6> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/write_out_se_5> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/write_out_se_4> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/write_out_se_3> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/write_out_se_2> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/write_out_se_1> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <systolic/write_out_se_0> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4712> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4711> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4702> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4701> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4703> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4693> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4692> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4682> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4681> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4691> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4672> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4671> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4661> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4652> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4662> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4651> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4632> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4622> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4621> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4631> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4642> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4641> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4611> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4602> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4612> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4601> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4592> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4582> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4581> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4591> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4572> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4571> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4561> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4552> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4562> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4542> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4541> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4551> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4531> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4522> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4532> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4521> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4512> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4502> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4501> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4511> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4482> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4481> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4471> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4492> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4472> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4491> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4462> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4452> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4451> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4461> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4442> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4441> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4431> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4422> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4432> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4421> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4412> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4402> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4401> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4411> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4392> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4391> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4381> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4372> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4382> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4371> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4362> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4352> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4351> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4361> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4331> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4322> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4332> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4342> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4341> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4321> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4312> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4311> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4301> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4292> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4302> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4291> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4282> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4272> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4271> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4281> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4262> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4261> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4251> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4242> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4252> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4241> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4232> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4222> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4221> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4231> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4212> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4211> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4201> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4182> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4202> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4181> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4172> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4192> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4191> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4171> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4162> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4161> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4151> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4142> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4152> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4132> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4131> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4141> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4121> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4112> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4122> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4111> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4102> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4092> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4091> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4101> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4082> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4081> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4071> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4062> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4072> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4061> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4052> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4032> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4031> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4051> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4022> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4021> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4041> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4012> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4042> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4011> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4002> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3992> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3991> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4001> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3982> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3981> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3971> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3962> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3972> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3961> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3952> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3942> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3941> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3951> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3931> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3922> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3932> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3912> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3911> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3921> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3902> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3901> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3881> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3872> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3882> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3871> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3892> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3862> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3861> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3891> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3852> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3851> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3841> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3832> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3842> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3831> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3822> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3812> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3811> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3821> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3802> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3801> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3791> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3782> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3792> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3781> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3772> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3762> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3761> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3771> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3752> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3751> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3731> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3722> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3732> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3742> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3741> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3721> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3711> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3702> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3712> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3701> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3692> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3682> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3681> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3691> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3672> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3671> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3661> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3652> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3662> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3651> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3642> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3632> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3631> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3641> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3622> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3621> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3611> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3602> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3612> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3601> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3582> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3572> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3571> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3581> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3592> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3591> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3561> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3552> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3562> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3551> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3542> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3532> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3531> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3541> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3521> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3512> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3522> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3502> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3501> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3511> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3492> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3491> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3481> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3472> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3482> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3471> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3462> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3452> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3451> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3461> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3432> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3431> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3421> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3442> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3422> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3441> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3412> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3402> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3401> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3411> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3392> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3391> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3381> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3372> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3382> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3371> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3362> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3352> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3351> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3361> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3342> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3341> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3331> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3322> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3332> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3312> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3311> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3321> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3301> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3282> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3302> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3281> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3272> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3292> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3291> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3271> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3262> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3261> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3251> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3242> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3252> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3241> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3232> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3222> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3221> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3231> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3211> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3202> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3212> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3192> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3191> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3201> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3182> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3181> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3171> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3162> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3172> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3161> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3152> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3132> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3131> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3151> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3142> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3141> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data312> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data311> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data310> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data309> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data308> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data307> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data306> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data305> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data304> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data303> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data302> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data301> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data300> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data298> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data297> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data299> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data296> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data295> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data294> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data293> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data292> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data291> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data290> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data289> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data288> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data287> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data286> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data285> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data283> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data282> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data284> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data281> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data280> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data279> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data278> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data277> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data276> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data275> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data274> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data273> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data272> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data271> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data270> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data268> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data267> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data269> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data266> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data265> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data264> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data263> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data262> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data261> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data260> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data259> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data258> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data257> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data256> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data255> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data253> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data252> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data254> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data251> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data250> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data249> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data248> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data247> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data246> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data245> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data244> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data243> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data242> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data241> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data240> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data238> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data237> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data239> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data236> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data235> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data234> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data233> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data232> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data231> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data230> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data229> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data228> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data227> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data226> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data225> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data223> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data222> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data224> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data221> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data220> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data219> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data218> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data217> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data216> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data215> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data214> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data213> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data212> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data211> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data210> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data208> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data207> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data209> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data206> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data205> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data204> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data203> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data202> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data201> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data200> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data199> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data198> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data197> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data196> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data195> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data193> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data192> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data194> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data191> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data190> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data189> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data188> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data187> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data186> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data185> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data184> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data183> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data182> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data181> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data180> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data178> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data177> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data179> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data176> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data175> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data174> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data173> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data172> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data171> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data170> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data169> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data168> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data167> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data166> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data165> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data163> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data162> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data164> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data161> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data160> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data159> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data158> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data157> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data156> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data155> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data154> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data153> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data152> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data151> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data150> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data148> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data147> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data149> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data146> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data145> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data144> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data143> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data142> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data141> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data140> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data139> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data138> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data137> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data136> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data135> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data133> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data132> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data134> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data131> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data130> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data129> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data128> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data127> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data126> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data125> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data124> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data123> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data122> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data121> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data120> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data118> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data117> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data119> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data116> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data115> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data114> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data113> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data112> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data111> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data110> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data109> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data108> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data107> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data106> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data105> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data103> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data102> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data104> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data101> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data100> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data99> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data98> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data97> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data96> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data95> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data94> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data93> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data92> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data91> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data90> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data88> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data87> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data89> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data86> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data85> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data84> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data83> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data82> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data81> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data80> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data79> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data78> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data77> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data76> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data75> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data73> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data72> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data74> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data71> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data70> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data69> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data68> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data67> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data66> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data65> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data64> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data63> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data62> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data61> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data60> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data58> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data57> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data59> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data56> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data55> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data54> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data53> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data52> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data51> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data50> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data49> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data48> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data47> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data46> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data45> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data43> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data42> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data44> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data41> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data40> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data39> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data38> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data37> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data36> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data35> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data34> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data33> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data32> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data31> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data30> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data28> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data27> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data29> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data26> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data25> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data24> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data23> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data22> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data21> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data20> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data19> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data18> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data17> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data16> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data15> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data13> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data12> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data14> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data11> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data10> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data9> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data8> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data7> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data6> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data5> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data4> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data3> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data2> of sequential type is unconnected in block <top>.
+WARNING:Xst:2677 - Node <out_MEM/Mram_Data1> of sequential type is unconnected in block <top>.
 WARNING:Xst:1710 - FF/Latch <clk_div/counter_uart_14> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_uart_13> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_uart_12> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_uart_11> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_uart_9> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_uart_10> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_16> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_15> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_14> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_13> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_12> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_11> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_9> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_8> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_10> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_7> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <clk_div/counter_sampling_6> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <clk_div/counter_uart_15> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <clk_div/counter_uart_16> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter/state_3> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter/state_2> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter/state_1> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter/state_0> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter/shift_10> (without init value) has a constant value of 0 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter/shift_9> (without init value) has a constant value of 1 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter/shift_8> (without init value) has a constant value of 1 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter/shift_7> (without init value) has a constant value of 1 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter/shift_6> (without init value) has a constant value of 1 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter/shift_5> (without init value) has a constant value of 1 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter/shift_4> (without init value) has a constant value of 1 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter/shift_3> (without init value) has a constant value of 1 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter/shift_2> (without init value) has a constant value of 1 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter/shift_1> (without init value) has a constant value of 1 in block <top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <transmitter/shift_0> (without init value) has a constant value of 1 in block <top>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <clk_div/counter_uart_0> in Unit <top> is equivalent to the following FF/Latch, which will be removed : <clk_div/counter_sampling_0> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 41.
-FlipFlop Data_collect/MEM_write_addr_0 has been replicated 1 time(s)
-FlipFlop Data_collect/MEM_write_addr_1 has been replicated 1 time(s)
-FlipFlop Data_collect/MEM_write_addr_10 has been replicated 2 time(s)
-FlipFlop Data_collect/MEM_write_addr_12 has been replicated 1 time(s)
-FlipFlop Data_collect/MEM_write_addr_13 has been replicated 1 time(s)
-FlipFlop Data_collect/MEM_write_addr_2 has been replicated 1 time(s)
-FlipFlop Data_collect/MEM_write_addr_3 has been replicated 2 time(s)
-FlipFlop Data_collect/MEM_write_addr_4 has been replicated 1 time(s)
-FlipFlop Data_collect/MEM_write_addr_5 has been replicated 1 time(s)
-FlipFlop Data_collect/MEM_write_addr_6 has been replicated 3 time(s)
-FlipFlop Data_collect/MEM_write_addr_7 has been replicated 3 time(s)
-FlipFlop Data_collect/MEM_write_addr_8 has been replicated 6 time(s)
-FlipFlop Data_collect/MEM_write_addr_9 has been replicated 5 time(s)
-FlipFlop Data_collect/MEM_write_enable has been replicated 4 time(s)
-FlipFlop Data_send/MEM_read_sel_0 has been replicated 2 time(s)
-FlipFlop Data_send/MEM_read_sel_1 has been replicated 2 time(s)
-FlipFlop Data_send/MEM_read_sel_11 has been replicated 1 time(s)
-FlipFlop Data_send/MEM_read_sel_12 has been replicated 1 time(s)
-FlipFlop Data_send/MEM_read_sel_2 has been replicated 2 time(s)
-FlipFlop Data_send/MEM_read_sel_3 has been replicated 2 time(s)
-FlipFlop Data_send/MEM_read_sel_4 has been replicated 2 time(s)
-FlipFlop Data_send/MEM_read_sel_5 has been replicated 2 time(s)
-FlipFlop Data_send/MEM_read_sel_6 has been replicated 2 time(s)
-FlipFlop Data_send/MEM_read_sel_7 has been replicated 2 time(s)
-FlipFlop Data_send/MEM_read_sel_8 has been replicated 1 time(s)
-FlipFlop Data_send/MEM_read_sel_9 has been replicated 1 time(s)
+Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 47.
 
 Final Macro Processing ...
 
@@ -462,8 +1305,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 172
- Flip-Flops                                            : 172
+# Registers                                            : 190
+ Flip-Flops                                            : 190
 
 =========================================================================
 
@@ -486,28 +1329,27 @@ Top Level Output File Name         : top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 991
+# BELS                             : 1806
 #      GND                         : 1
-#      INV                         : 9
-#      LUT1                        : 40
-#      LUT2                        : 22
-#      LUT3                        : 36
-#      LUT4                        : 35
-#      LUT5                        : 150
-#      LUT6                        : 399
-#      MUXCY                       : 39
-#      MUXF7                       : 145
+#      INV                         : 62
+#      LUT1                        : 69
+#      LUT2                        : 70
+#      LUT3                        : 105
+#      LUT4                        : 116
+#      LUT5                        : 177
+#      LUT6                        : 616
+#      MUXCY                       : 163
+#      MUXF7                       : 176
 #      MUXF8                       : 72
 #      VCC                         : 1
-#      XORCY                       : 42
-# FlipFlops/Latches                : 172
-#      FD                          : 109
+#      XORCY                       : 178
+# FlipFlops/Latches                : 190
+#      FD                          : 16
 #      FDC                         : 8
-#      FDCE                        : 18
-#      FDP                         : 1
-#      FDPE                        : 10
-#      FDR                         : 15
-#      FDRE                        : 10
+#      FDCE                        : 45
+#      FDE                         : 72
+#      FDR                         : 24
+#      FDRE                        : 24
 #      FDS                         : 1
 # RAMS                             : 632
 #      RAM32X1D                    : 8
@@ -515,10 +1357,12 @@ Primitive and Black Box Usage:
 #      RAM64X1D                    : 312
 # Clock Buffers                    : 3
 #      BUFG                        : 3
-# IO Buffers                       : 13
-#      IBUF                        : 2
+# IO Buffers                       : 14
+#      IBUF                        : 3
 #      IBUFG                       : 1
 #      OBUF                        : 10
+# DSPs                             : 2
+#      DSP48A1                     : 2
 # Others                           : 1
 #      PLL_ADV                     : 1
 
@@ -529,25 +1373,26 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             172  out of  18224     0%  
- Number of Slice LUTs:                 2579  out of   9112    28%  
-    Number used as Logic:               691  out of   9112     7%  
+ Number of Slice Registers:             190  out of  18224     1%  
+ Number of Slice LUTs:                 3103  out of   9112    34%  
+    Number used as Logic:              1215  out of   9112    13%  
     Number used as Memory:             1888  out of   2176    86%  
        Number used as RAM:             1888
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   2631
-   Number with an unused Flip Flop:    2459  out of   2631    93%  
-   Number with an unused LUT:            52  out of   2631     1%  
-   Number of fully used LUT-FF pairs:   120  out of   2631     4%  
-   Number of unique control sets:        16
+ Number of LUT Flip Flop pairs used:   3142
+   Number with an unused Flip Flop:    2952  out of   3142    93%  
+   Number with an unused LUT:            39  out of   3142     1%  
+   Number of fully used LUT-FF pairs:   151  out of   3142     4%  
+   Number of unique control sets:        22
 
 IO Utilization: 
- Number of IOs:                          13
- Number of bonded IOBs:                  13  out of    232     5%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    232     6%  
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                3  out of     16    18%  
+ Number of DSP48A1s:                      2  out of     32     6%  
  Number of PLL_ADVs:                      1  out of      2    50%  
 
 ---------------------------
@@ -568,14 +1413,15 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
---------------------------------------------------+---------------------------------------------+-------+
-Clock Signal                                      | Clock buffer(FF name)                       | Load  |
---------------------------------------------------+---------------------------------------------+-------+
-clk_div/clk_uart_internal                         | BUFG                                        | 38    |
-clk_div/clk_sampling_internal                     | NONE(sampler/prev_rx_clk)                   | 9     |
-PLL/pll_base_inst/CLKOUT0                         | BUFG                                        | 756   |
-data_collection_finish(Data_collect/finish<13>1:O)| NONE(*)(Data_collect/collect_finish_display)| 1     |
---------------------------------------------------+---------------------------------------------+-------+
+--------------------------------------------------+------------------------------------------------+-------+
+Clock Signal                                      | Clock buffer(FF name)                          | Load  |
+--------------------------------------------------+------------------------------------------------+-------+
+clk_div/clk_uart_internal                         | BUFG                                           | 22    |
+clk_div/clk_sampling_internal                     | NONE(sampler/prev_rx_clk)                      | 9     |
+PLL/pll_base_inst/CLKOUT0                         | BUFG                                           | 790   |
+data_collection_finish(Data_collect/finish<13>1:O)| NONE(*)(Data_collect/collect_finish_display)   | 1     |
+clk_div/counter_sampling<10>                      | NONE(systolic/Madd_row[6]_GND_4_o_add_121_OUT1)| 1     |
+--------------------------------------------------+------------------------------------------------+-------+
 (*) This 1 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
 Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
@@ -589,8 +1435,8 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 3.996ns (Maximum Frequency: 250.269MHz)
-   Minimum input arrival time before clock: 4.679ns
+   Minimum period: 10.301ns (Maximum Frequency: 97.080MHz)
+   Minimum input arrival time before clock: 5.045ns
    Maximum output required time after clock: 3.634ns
    Maximum combinational path delay: No path found
 
@@ -614,7 +1460,7 @@ Delay:               2.691ns (Levels of Logic = 1)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FD:C->Q               1   0.447   0.808  sampler/prev_rx_clk (sampler/prev_rx_clk)
-     LUT3:I0->O            8   0.205   0.802  sampler/rst_rx_clk_rising_OR_34_o1 (sampler/rst_rx_clk_rising_OR_34_o)
+     LUT3:I0->O            8   0.205   0.802  sampler/rst_rx_clk_rising_OR_48_o1 (sampler/rst_rx_clk_rising_OR_48_o)
      FDRE:R                    0.430          sampler/one_counter_0
     ----------------------------------------
     Total                      2.691ns (1.082ns logic, 1.609ns route)
@@ -622,27 +1468,42 @@ Delay:               2.691ns (Levels of Logic = 1)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'PLL/pll_base_inst/CLKOUT0'
-  Clock period: 3.996ns (frequency: 250.269MHz)
-  Total number of paths / destination ports: 14340 / 7721
+  Clock period: 10.301ns (frequency: 97.080MHz)
+  Total number of paths / destination ports: 89760 / 7885
 -------------------------------------------------------------------------
-Delay:               3.996ns (Levels of Logic = 3)
-  Source:            Data_collect/MEM_write_addr_2_1 (FF)
-  Destination:       Data_collect/delayed_write_addr_0 (FF)
+Delay:               10.301ns (Levels of Logic = 3)
+  Source:            systolic/row_0 (FF)
+  Destination:       systolic/read_select_13 (FF)
   Source Clock:      PLL/pll_base_inst/CLKOUT0 rising
   Destination Clock: PLL/pll_base_inst/CLKOUT0 rising
 
-  Data Path: Data_collect/MEM_write_addr_2_1 to Data_collect/delayed_write_addr_0
+  Data Path: systolic/row_0 to systolic/read_select_13
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               1   0.447   0.944  Data_collect/MEM_write_addr_2_1 (Data_collect/MEM_write_addr_2_1)
-     LUT6:I0->O            9   0.203   0.934  Data_collect/rst_GND_3_o_OR_32_o1_SW1 (N94)
-     LUT6:I4->O           14   0.203   0.958  Data_collect/rst_GND_3_o_OR_32_o (Data_collect/rst_GND_3_o_OR_32_o)
-     LUT5:I4->O            1   0.205   0.000  Data_collect/delayed_write_addr_0_rstpot (Data_collect/delayed_write_addr_0_rstpot)
-     FD:D                      0.102          Data_collect/delayed_write_addr_0
+     FDCE:C->Q            10   0.447   0.856  systolic/row_0 (systolic/row_0)
+     DSP48A1:B0->P2        8   4.394   0.802  systolic/Maddsub_n0309 (systolic/n0336<2>)
+     INV:I->O              1   0.206   0.000  systolic/Madd_row[6]_GND_4_o_add_143_OUT_lut<2>_INV_0 (systolic/Madd_row[6]_GND_4_o_add_143_OUT_lut<2>)
+     MUXCY:S->O            1   0.172   0.000  systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<2> (systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<3> (systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<4> (systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<5> (systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<6> (systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<7> (systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<8> (systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<9> (systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<10> (systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<11> (systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<11>)
+     MUXCY:CI->O           0   0.019   0.000  systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<12> (systolic/Madd_row[6]_GND_4_o_add_143_OUT_cy<12>)
+     XORCY:CI->O           1   0.180   0.684  systolic/Madd_row[6]_GND_4_o_add_143_OUT_xor<13> (systolic/row[6]_GND_4_o_add_143_OUT<13>)
+     LUT3:I1->O            2   0.203   0.617  systolic/Mmux_read_select[13]_mem_select[3]_mux_200_OUT103 (systolic/Mmux_read_select[13]_mem_select[3]_mux_200_OUT103)
+     LUT6:I5->O            1   0.205   0.000  systolic/Mmux_read_select[13]_mem_select[3]_mux_200_OUT104_SW0_F (N112)
+     MUXF7:I0->O           1   0.131   0.808  systolic/Mmux_read_select[13]_mem_select[3]_mux_200_OUT104_SW0 (N57)
+     LUT6:I3->O            1   0.205   0.000  systolic/Mmux_read_select[13]_mem_select[3]_mux_200_OUT106 (systolic/read_select[13]_mem_select[3]_mux_200_OUT<13>)
+     FDCE:D                    0.102          systolic/read_select_13
     ----------------------------------------
-    Total                      3.996ns (1.160ns logic, 2.836ns route)
-                                       (29.0% logic, 71.0% route)
+    Total                     10.301ns (6.534ns logic, 3.766ns route)
+                                       (63.4% logic, 36.6% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'data_collection_finish'
@@ -668,32 +1529,31 @@ Delay:               1.950ns (Levels of Logic = 1)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk_div/clk_uart_internal'
-  Clock period: 3.064ns (frequency: 326.339MHz)
-  Total number of paths / destination ports: 215 / 64
+  Clock period: 2.821ns (frequency: 354.434MHz)
+  Total number of paths / destination ports: 103 / 38
 -------------------------------------------------------------------------
-Delay:               3.064ns (Levels of Logic = 2)
-  Source:            transmitter/state_0 (FF)
-  Destination:       transmitter/shift_9 (FF)
+Delay:               2.821ns (Levels of Logic = 1)
+  Source:            receiver/state_0 (FF)
+  Destination:       receiver/data_7 (FF)
   Source Clock:      clk_div/clk_uart_internal rising
   Destination Clock: clk_div/clk_uart_internal rising
 
-  Data Path: transmitter/state_0 to transmitter/shift_9
+  Data Path: receiver/state_0 to receiver/data_7
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              9   0.447   1.058  transmitter/state_0 (transmitter/state_0)
-     LUT5:I2->O            8   0.205   1.050  transmitter/GND_16_o_GND_16_o_AND_8_o1 (transmitter/GND_16_o_GND_16_o_AND_8_o)
-     LUT4:I0->O            1   0.203   0.000  transmitter/Mmux_PWR_8_o_PWR_8_o_mux_13_OUT37 (transmitter/PWR_8_o_PWR_8_o_mux_13_OUT<2>)
-     FDPE:D                    0.102          transmitter/shift_2
+     FDC:C->Q              7   0.447   1.021  receiver/state_0 (receiver/state_0)
+     LUT4:I0->O            9   0.203   0.829  receiver/Mmux_state[3]_GND_17_o_mux_19_OUT411 (receiver/Mmux_state[3]_GND_17_o_mux_19_OUT41)
+     FDCE:CE                   0.322          receiver/data_0
     ----------------------------------------
-    Total                      3.064ns (0.957ns logic, 2.107ns route)
-                                       (31.2% logic, 68.8% route)
+    Total                      2.821ns (0.972ns logic, 1.849ns route)
+                                       (34.5% logic, 65.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_div/clk_uart_internal'
-  Total number of paths / destination ports: 38 / 38
+  Total number of paths / destination ports: 22 / 22
 -------------------------------------------------------------------------
-Offset:              3.252ns (Levels of Logic = 1)
+Offset:              2.901ns (Levels of Logic = 1)
   Source:            rst (PAD)
   Destination:       sampler/data_bit (FF)
   Destination Clock: clk_div/clk_uart_internal rising
@@ -702,17 +1562,17 @@ Offset:              3.252ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            58   1.222   1.600  rst_IBUF (rst_IBUF)
+     IBUF:I->O            29   1.222   1.249  rst_IBUF (rst_IBUF)
      FDS:S                     0.430          sampler/data_bit
     ----------------------------------------
-    Total                      3.252ns (1.652ns logic, 1.600ns route)
-                                       (50.8% logic, 49.2% route)
+    Total                      2.901ns (1.652ns logic, 1.249ns route)
+                                       (57.0% logic, 43.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_div/clk_sampling_internal'
   Total number of paths / destination ports: 16 / 16
 -------------------------------------------------------------------------
-Offset:              4.259ns (Levels of Logic = 2)
+Offset:              3.908ns (Levels of Logic = 2)
   Source:            rst (PAD)
   Destination:       sampler/one_counter_0 (FF)
   Destination Clock: clk_div/clk_sampling_internal rising
@@ -721,18 +1581,39 @@ Offset:              4.259ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            58   1.222   1.601  rst_IBUF (rst_IBUF)
-     LUT3:I2->O            8   0.205   0.802  sampler/rst_rx_clk_rising_OR_34_o1 (sampler/rst_rx_clk_rising_OR_34_o)
+     IBUF:I->O            29   1.222   1.250  rst_IBUF (rst_IBUF)
+     LUT3:I2->O            8   0.205   0.802  sampler/rst_rx_clk_rising_OR_48_o1 (sampler/rst_rx_clk_rising_OR_48_o)
      FDRE:R                    0.430          sampler/one_counter_0
     ----------------------------------------
-    Total                      4.259ns (1.857ns logic, 2.402ns route)
-                                       (43.6% logic, 56.4% route)
+    Total                      3.908ns (1.857ns logic, 2.051ns route)
+                                       (47.5% logic, 52.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'PLL/pll_base_inst/CLKOUT0'
+  Total number of paths / destination ports: 143 / 143
+-------------------------------------------------------------------------
+Offset:              5.045ns (Levels of Logic = 3)
+  Source:            rst (PAD)
+  Destination:       Data_collect/MEM_write_enable (FF)
+  Destination Clock: PLL/pll_base_inst/CLKOUT0 rising
+
+  Data Path: rst to Data_collect/MEM_write_enable
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            29   1.222   1.250  rst_IBUF (rst_IBUF)
+     LUT6:I5->O           23   0.205   1.154  Data_collect/rst_GND_3_o_OR_32_o (Data_collect/rst_GND_3_o_OR_32_o)
+     LUT2:I1->O            1   0.205   0.579  Data_collect/prev_data_ready11 (Data_collect/prev_data_ready_0)
+     FDR:R                     0.430          Data_collect/MEM_write_enable
+    ----------------------------------------
+    Total                      5.045ns (2.062ns logic, 2.983ns route)
+                                       (40.9% logic, 59.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'data_collection_finish'
   Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
-Offset:              3.252ns (Levels of Logic = 1)
+Offset:              2.901ns (Levels of Logic = 1)
   Source:            rst (PAD)
   Destination:       Data_collect/collect_finish_display (FF)
   Destination Clock: data_collection_finish rising
@@ -741,36 +1622,15 @@ Offset:              3.252ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            58   1.222   1.600  rst_IBUF (rst_IBUF)
+     IBUF:I->O            29   1.222   1.249  rst_IBUF (rst_IBUF)
      FDR:R                     0.430          Data_collect/collect_finish_display
     ----------------------------------------
-    Total                      3.252ns (1.652ns logic, 1.600ns route)
-                                       (50.8% logic, 49.2% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'PLL/pll_base_inst/CLKOUT0'
-  Total number of paths / destination ports: 79 / 79
--------------------------------------------------------------------------
-Offset:              4.679ns (Levels of Logic = 3)
-  Source:            rst (PAD)
-  Destination:       Data_send/MEM_read_sel_0 (FF)
-  Destination Clock: PLL/pll_base_inst/CLKOUT0 rising
-
-  Data Path: rst to Data_send/MEM_read_sel_0
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O            58   1.222   1.965  rst_IBUF (rst_IBUF)
-     LUT6:I0->O           15   0.203   0.982  Data_send/Mcount_MEM_read_sel_val2 (Data_send/Mcount_MEM_read_sel_val)
-     LUT4:I3->O            3   0.205   0.000  Data_send/MEM_read_sel_0_rstpot (Data_send/MEM_read_sel_0_rstpot)
-     FD:D                      0.102          Data_send/MEM_read_sel_0
-    ----------------------------------------
-    Total                      4.679ns (1.732ns logic, 2.947ns route)
-                                       (37.0% logic, 63.0% route)
+    Total                      2.901ns (1.652ns logic, 1.249ns route)
+                                       (57.0% logic, 43.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_div/clk_uart_internal'
-  Total number of paths / destination ports: 9 / 9
+  Total number of paths / destination ports: 8 / 8
 -------------------------------------------------------------------------
 Offset:              3.634ns (Levels of Logic = 1)
   Source:            receiver/data_7 (FF)
@@ -816,8 +1676,8 @@ Clock to Setup on destination clock PLL/pll_base_inst/CLKOUT0
                          | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock             |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -------------------------+---------+---------+---------+---------+
-PLL/pll_base_inst/CLKOUT0|    3.996|         |         |         |
-clk_div/clk_uart_internal|    3.654|         |         |         |
+PLL/pll_base_inst/CLKOUT0|   10.301|         |         |         |
+clk_div/clk_uart_internal|    2.684|         |         |         |
 -------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk_div/clk_sampling_internal
@@ -834,10 +1694,17 @@ Clock to Setup on destination clock clk_div/clk_uart_internal
                              | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                 |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -----------------------------+---------+---------+---------+---------+
-PLL/pll_base_inst/CLKOUT0    |    7.624|         |         |         |
 clk_div/clk_sampling_internal|    2.601|         |         |         |
-clk_div/clk_uart_internal    |    3.064|         |         |         |
+clk_div/clk_uart_internal    |    2.821|         |         |         |
 -----------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk_div/counter_sampling<10>
+-------------------------+---------+---------+---------+---------+
+                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock             |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------+---------+---------+---------+---------+
+PLL/pll_base_inst/CLKOUT0|    7.150|         |         |         |
+-------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock data_collection_finish
 ----------------------+---------+---------+---------+---------+
@@ -850,14 +1717,14 @@ data_collection_finish|    1.950|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 12.00 secs
-Total CPU time to Xst completion: 12.53 secs
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 15.87 secs
  
 --> 
 
-Total memory usage is 269164 kilobytes
+Total memory usage is 335496 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   27 (   0 filtered)
-Number of infos    :    4 (   0 filtered)
+Number of warnings :  758 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
 

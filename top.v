@@ -4,6 +4,7 @@
 module top(
 	input clk,
 	input rst,
+	input data_process_rst,
 	input RsRx,																			// Connect to RX pin
 	output [7:0] Rx_data,															// Received data
 	output RsTx,																		// Connect to TX pin
@@ -26,20 +27,25 @@ module top(
 	wire tx_start;																		// start to send data when this bit is set to 1
 	
 	wire data_collection_finish;
+	wire data_process_finish;
 	wire data_send_finish;
 	wire data_send_run;
-	wire MEM_we;
+	wire MEM_we, out_MEM_we;
 	wire [13:0] MEM_wr_sel;
 	wire [13:0] MEM_rd_sel;
 	wire [7:0] MEM_wr_data;
 	wire [7:0] MEM_rd_data;
- 	
+ 	wire [13:0] MEM_out_wr_sel;   //Out memory selection
+	wire [13:0] MEM_out_rd_sel;
+	wire [7:0] MEM_out_wr_data;
+	wire [7:0] MEM_out_rd_data;
+	
 	assign Rx_data = rx_data;
 
 	Data_Process Data_process(														// Collect data, process it, and send it back
 		.clk(clk_9_6M),
 		.rst(rst),
-		.data_collection_finish(data_collection_finish),
+		.data_process_finish(data_orocess_finish),
 		.data_send_finish(data_send_finish),
 		.data_send_run(data_send_run)
    );
@@ -58,6 +64,18 @@ module top(
 		.collect_finish_display(collect_finish_display)
    );
 
+	Data_selector systolic (
+		.clk(clk_9_6M),
+		.rst(data_process_rst),
+		.data_collect_finish(data_collection_finish),
+		.data_in(MEM_rd_data),
+		.data_out(MEM_out_wr_data),
+		.read_select(MEM_rd_sel), //read from the MEM
+		.write_out_se(MEM_out_wr_sel), // write to the output MEM
+		.data_process_finish(data_process_finish),
+		.wr_enable(out_MEM_we)
+	);
+	
 	Data_send																			// Send all data back to PC by UART
 	#(.NUM_DATA(NUM_DATA))
 	Data_send(
@@ -65,8 +83,8 @@ module top(
 		.rst(rst),
 		.send_start(data_send_run),
 		.tx_ready(tx_ready),
-		.MEM_data(MEM_rd_data),
-		.MEM_read_sel(MEM_rd_sel),
+		.MEM_data(MEM_out_rd_data),
+		.MEM_read_sel(MEM_out_rd_sel),
 		.transmitter_data(tx_data),
 		.transmitter_start(tx_start),
 		.finish(data_send_finish)
@@ -82,6 +100,17 @@ module top(
 		.write_data(MEM_wr_data),
 		.read_data(MEM_rd_data)
    );
+
+	MEM
+	#(.NUM_DATA(NUM_DATA))
+	out_MEM(
+		.clk(clk_9_6M),
+		.wr_enable(out_MEM_we),
+		.write_select(MEM_out_wr_sel),
+		.read_select(MEM_out_rd_sel),
+		.write_data(MEM_out_wr_data),
+		.read_data(MEM_out_rd_data)
+	);
 
 	receiver_sampler sampler(														// Error checking logic
 		.rst(rst),

@@ -143,3 +143,10 @@ trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top
 bitgen -intstyle ise -f top.ut top.ncd 
 bitgen -intstyle ise -f top.ut top.ncd 
 bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/onesp/Desktop/2016F/EC551/Lab 3/LastTry/UART/UART/top.xst" -ofn "C:/Users/onesp/Desktop/2016F/EC551/Lab 3/LastTry/UART/UART/top.syr" 
+xst -intstyle ise -ifn "C:/Users/onesp/Desktop/2016F/EC551/Lab 3/LastTry/UART/UART/top.xst" -ofn "C:/Users/onesp/Desktop/2016F/EC551/Lab 3/LastTry/UART/UART/top.syr" 
+xst -intstyle ise -ifn "C:/Users/onesp/Desktop/2016F/EC551/Lab 3/LastTry/UART/UART/top.xst" -ofn "C:/Users/onesp/Desktop/2016F/EC551/Lab 3/LastTry/UART/UART/top.syr" 
+xst -intstyle ise -ifn "C:/Users/onesp/Desktop/2016F/EC551/Lab 3/LastTry/UART/UART/top.xst" -ofn "C:/Users/onesp/Desktop/2016F/EC551/Lab 3/LastTry/UART/UART/top.syr" 
+xst -intstyle ise -ifn "C:/Users/onesp/Desktop/2016F/EC551/Lab 3/LastTry/UART/UART/top.xst" -ofn "C:/Users/onesp/Desktop/2016F/EC551/Lab 3/LastTry/UART/UART/top.syr" 
+xst -intstyle ise -ifn "C:/Users/onesp/Desktop/2016F/EC551/Lab 3/LastTry/UART/UART/top.xst" -ofn "C:/Users/onesp/Desktop/2016F/EC551/Lab 3/LastTry/UART/UART/top.syr" 
+xst -intstyle ise -ifn "C:/Users/onesp/Desktop/2016F/EC551/Lab 3/LastTry/UART/UART/top.xst" -ofn "C:/Users/onesp/Desktop/2016F/EC551/Lab 3/LastTry/UART/UART/top.syr" 

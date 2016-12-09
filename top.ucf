@@ -63,7 +63,9 @@ NET "RsRx" LOC = N17;
 NET "RsRx" IOSTANDARD = LVCMOS33;
 
 
+NET"data_process_rst" LOC = ;
 
+NET"data_process_rst" IOSTANDARD = LVCMOS33;
 
 NET "RsTx" LOC = N18;
 
