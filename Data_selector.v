@@ -61,12 +61,12 @@ module Data_selector(
 			
 			if (data_collect_finish) begin
 				
-				scanpixel = row*100 + column;
+				scanpixel = row*100 + column; // update the central address every clock cycle
 				if (row == 0 || row == 99 || column == 0 || column == 99) begin // If encounter the edge
 					wr_enable = 1;
 					write_out_se = scanpixel;
 					data_out = data_in;
-					if (column == 99) begin
+					if (column == 99) begin // If encounter the right edge
 						row <= row + 1;
 						column <= 0;
 					end
@@ -88,13 +88,13 @@ module Data_selector(
 								mem_select <= 5;
 								end
 							5: begin
-								read_select = scanpixel - 99;
+								read_select = scanpixel + 1;
 								MEM[mem_select] = data_in;
 								mem_select <= 8;
 								end
 							8: begin
 								wr_enable = 1;
-								read_select = scanpixel - 99;
+								read_select = scanpixel + 101;
 								MEM[mem_select] = data_in;
 								temp_out = (MEM[0] * w1 + MEM[1] * w2 + MEM[2] * w3 + MEM[3] * w4 + MEM[4] * w5 + MEM[5] * w6 + MEM[6] * w7 + MEM[7] * w8 + MEM[8] * w9);
 								data_out = temp_out / 16;
